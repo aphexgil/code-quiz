@@ -9,3 +9,7 @@ When 'start game' button is pressed, player is shown a randomly chosen question 
 Whether answer is correct or incorrect, player is then shown another randomly chosen question from remaining 14. This process repeats, keeping track of player score until time runs out or until all questions are answered.
 
 Then player is shown their high score and is prompted to input name. Name and high score are show along with previous names and high scores on locally stored leaderboard.
+
+Image of deployed site viewable at './Assets/Images/code-quiz-deployed.png'
+
+Deployed site: https://aphexgil.github.io/code-quiz/
