@@ -1,0 +1,66 @@
+*{
+    font-family: monospace;
+    text-align: center;
+}
+
+body{
+    background-color: darkseagreen;
+}
+
+header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main{
+    display: block;
+    margin: 100px auto 0px auto;
+    width: 100%;
+}
+
+button{
+    background-color: bisque;
+    height: auto;
+}
+
+.answer-button{
+    width: 300px;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    flex: 0 0;
+}
+
+.score-box{
+    margin-bottom: 20px;
+}
+
+#name-input{
+    margin-bottom: 20px;
+}
+
+#player-name{
+    text-align: left;
+}
+
+#leaderboard{
+    margin: 0px auto 20px auto;
+
+}
+
+.leaderboard-name{
+    text-align: right;
+}
+
+.leaderboard-score{
+    text-align: center;
+}

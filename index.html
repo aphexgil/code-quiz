@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+
+<body>
+
+    <!-- high score button, current score and time remaining flexed across top row -->
+    <header>
+        <button id="high-scores">high scores</button>
+        <span class="score-box"></span>
+        <span id="timer"></span>
+    </header>
+    <main>
+
+        <!-- greeting page -->
+        <section id="greeting" style="display: block">
+            <h1>code quiz</h1>
+            <p>π take this quiz to prove your webdev knowledge π</p>
+            <button id="start-game">start game</button>
+        </section>
+
+        <!-- question cards -->
+        <section group="question-page" style="display: none">
+            <h1>which one of these is not a variable type in javascript?</h1>
+            <ul>
+                <li><button class="answer-button">var</button></li>
+                <li><button class="answer-button correct">nut</button></li>
+                <li><button class="answer-button">const</button></li>
+                <li><button class="answer-button">let</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which one of these is not a semantic element in html?</h1>
+            <ul>
+                <li><button class="answer-button">div</button></li>
+                <li><button class="answer-button">span</button></li>
+                <li><button class="answer-button">img</button></li>
+                <li><button class="answer-button correct">sku</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>what does d.o.m. stand for?</h1>
+            <ul>
+                <li><button class="answer-button">decimal-op multiplication</button></li>
+                <li><button class="answer-button correct">document object model</button></li>
+                <li><button class="answer-button">development oriented mindset </button></li>
+                <li><button class="answer-button">don't omit mustard</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>what is css used for?</h1>
+            <ul>
+                <li><button class="answer-button">structure and content</button></li>
+                <li><button class="answer-button">functionality</button></li>
+                <li><button class="answer-button correct">styling and formatting</button></li>
+                <li><button class="answer-button">server requests</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which one of these is not a git command?</h1>
+            <ul>
+                <li><button class="answer-button correct">react</button></li>
+                <li><button class="answer-button">commit</button></li>
+                <li><button class="answer-button">pull</button></li>
+                <li><button class="answer-button">add</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which of these methods repeatedly calls a function on a fixed delay?</h1>
+            <ul>
+                <li><button class="answer-button">querySelector()</button></li>
+                <li><button class="answer-button">addEventListener()</button></li>
+                <li><button class="answer-button">setAttribute()</button></li>
+                <li><button class="answer-button correct">setInterval()</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>according to the box model, which one of these regions is outermost?</h1>
+            <ul>
+                <li><button class="answer-button correct">margin</button></li>
+                <li><button class="answer-button">padding</button></li>
+                <li><button class="answer-button">content</button></li>
+                <li><button class="answer-button">border</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which one of these is not a possible value for the css attribute 'display'?</h1>
+            <ul>
+                <li><button class="answer-button">flex</button></li>
+                <li><button class="answer-button">none</button></li>
+                <li><button class="answer-button correct">flow</button></li>
+                <li><button class="answer-button">inline-block</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>how many classes can an individual element have in html?</h1>
+            <ul>
+                <li><button class="answer-button">2</button></li>
+                <li><button class="answer-button">1</button></li>
+                <li><button class="answer-button correct">unlimited</button></li>
+                <li><button class="answer-button">10</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which one of these is not a data type in javascript?</h1>
+            <ul>
+                <li><button class="answer-button">boolean</button></li>
+                <li><button class="answer-button correct">array</button></li>
+                <li><button class="answer-button">string</button></li>
+                <li><button class="answer-button">number</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which javascript command adds 1 to the variable x?</h1>
+            <ul>
+                <li><button class="answer-button">x = x + 1;</button></li>
+                <li><button class="answer-button">x ++;</button></li>
+                <li><button class="answer-button">x + = 1;</button></li>
+                <li><button class="answer-button correct">they all do</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which semantic tags are used to enclose javascript on html pages?</h1>
+            <ul>
+                <li><button class="answer-button">&lt;js&gt;</button></li>
+                <li><button class="answer-button correct">&lt;script&gt;</button></li>
+                <li><button class="answer-button">&lt;javascript&gt;</button></li>
+                <li><button class="answer-button">&lt;code&gt;</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which javascript method is used to write to the console?</h1>
+            <ul>
+                <li><button class="answer-button correct">console.log()</button></li>
+                <li><button class="answer-button">console.print()</button></li>
+                <li><button class="answer-button">console.write()</button></li>
+                <li><button class="answer-button">console.display()</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>how do you select an element with a the class "card"?</h1>
+            <ul>
+                <li><button class="answer-button">card{ ... }</button></li>
+                <li><button class="answer-button correct">.card{ ... }</button></li>
+                <li><button class="answer-button">class:card{ ... }</button></li>
+                <li><button class="answer-button">#card{ ... }</button></li>
+            </ul>
+        </section>
+
+        <section group="question-page" style="display: none">
+            <h1>which symbol terminates a javascript command?</h1>
+            <ul>
+                <li><button class="answer-button">:</button></li>
+                <li><button class="answer-button">,</button></li>
+                <li><button class="answer-button">!</button></li>
+                <li><button class="answer-button correct">;</button></li>
+            </ul>
+        </section>
+
+        <!-- name entry form -->
+        <section id="score-page" style="display: none">
+            <h1>save your high score</h1>
+            <div class="score-box"></div>
+            <form id="name-input">
+                <label for="player-name">name:</label>
+                <input type="text" id="player-name">
+            </form>
+            <button id="submit-score">submit score</button>
+        </section>
+
+        <!-- leaderboard page -->
+        <section style="display: none">
+            <h1>leaderboard</h1>
+            <table id="leaderboard">
+                <tr>
+                    <th>name</th>
+                    <th>score</th>
+                </tr>
+            </table>
+            <button id="play-again">play again?</button>
+        </section>
+
+        <!--spot to print 'correct' or 'incorrect' when player picks an answer-->
+        <div id="win-loss-message" style="display: block"></div>
+    </main>
+
+    <!-- link to script -->
+    <script src="./Assets/JavaScript/script.js"></script>
+</body>
+</html>
